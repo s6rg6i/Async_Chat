@@ -1,0 +1,30 @@
+[2022-10-10 19:18:36] [DEBUG] [server_log_config] -> debug сообщение
+[2022-10-10 19:18:36] [INFO] [server_log_config] -> info сообщение
+[2022-10-10 19:18:36] [WARNING] [server_log_config] -> warn сообщение
+[2022-10-10 19:18:36] [ERROR] [server_log_config] -> error сообщение
+[2022-10-10 19:18:36] [CRITICAL] [server_log_config] -> debug сообщение
+<2022-10-10 19:18:36> Function:[test((3, 5),{})] File:[C:\Projects\Async_Chat\Lesson_06\log\server_log_config.py] line 61 from [parent_func] [print(test(3, 5))]
+[2022-10-10 19:19:12] [DEBUG] [server] -> Running socket server on 0.0.0.0:7890
+[2022-10-10 19:19:19] [DEBUG] [server] -> Server received:
+{
+    "action": "presence",
+    "time": "Mon Oct 10 19:19:19 2022",
+    "type": "status",
+    "user": {
+        "account_name": "guest",
+        "status": "online"
+    }
+}
+<2022-10-10 19:19:19> Function:[response_presence(({'action': 'presence', 'time': 'Mon Oct 10 19:19:19 2022', 'type': 'status', 'user': {'account_name': 'guest', 'status': 'online'}},),{})] File:[C:\Projects\Async_Chat\Lesson_06\server.py] line 29 from [socket_server] [answer = response_presence(message)  # валидация и формирование JSON ответа]
+[2022-10-10 19:19:19] [DEBUG] [server] -> Server sends:
+{
+    "response": 200
+}
+[2022-10-10 19:19:19] [DEBUG] [server] -> Server received:
+{
+    "action": "exit"
+}
+[2022-10-10 19:19:19] [DEBUG] [server] -> Server sends:
+{
+    "response": 200
+}

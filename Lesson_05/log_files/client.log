@@ -1,0 +1,51 @@
+[2022-10-07 07:06:34] [DEBUG   ] [client] -> Client sends:
+{
+    "action": "presence",
+    "time": "Fri Oct  7 07:06:34 2022",
+    "type": "status",
+    "user": {
+        "account_name": "guest",
+        "status": "online"
+    }
+}
+[2022-10-07 07:06:34] [DEBUG   ] [client] -> Client received:
+{
+    "response": 200
+}
+[2022-10-07 07:06:34] [DEBUG   ] [client] -> Client sends:
+{
+    "action": "exit"
+}
+[2022-10-07 07:06:34] [DEBUG   ] [client] -> Client received:
+{
+    "response": 200
+}
+[2022-10-07 07:09:50] [ERROR   ] [client] -> Fatal Error: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+[2022-10-07 07:11:29] [ERROR   ] [client] -> Wrong <port>: should be a number between 0 and 65535
+[2022-10-07 07:11:29] [ERROR   ] [client] -> Fatal Error: wrong socket
+[2022-10-07 07:14:21] [ERROR   ] [client] -> Wrong <host>: should be written in a form of dot-decimal notation (each number < 256)
+[2022-10-07 07:14:21] [ERROR   ] [client] -> Fatal Error: wrong socket
+[2022-10-07 07:17:02] [ERROR   ] [client] -> Wrong <host>: should be written in a form of dot-decimal notation (each number < 256)
+[2022-10-07 07:17:02] [ERROR   ] [client] -> Fatal Error: wrong socket
+[2022-10-07 07:17:37] [DEBUG   ] [client] -> Client sends:
+{
+    "action": "presence",
+    "time": "Fri Oct  7 07:17:37 2022",
+    "type": "status",
+    "user": {
+        "account_name": "guest",
+        "status": "online"
+    }
+}
+[2022-10-07 07:17:37] [DEBUG   ] [client] -> Client received:
+{
+    "response": 200
+}
+[2022-10-07 07:17:37] [DEBUG   ] [client] -> Client sends:
+{
+    "action": "exit"
+}
+[2022-10-07 07:17:37] [DEBUG   ] [client] -> Client received:
+{
+    "response": 200
+}

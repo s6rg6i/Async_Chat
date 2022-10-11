@@ -1,0 +1,34 @@
+[2022-10-10 19:18:10] [DEBUG   ] [client_log_config] -> debug message
+[2022-10-10 19:18:10] [INFO    ] [client_log_config] -> info message
+[2022-10-10 19:18:10] [WARNING ] [client_log_config] -> warn message
+[2022-10-10 19:18:10] [ERROR   ] [client_log_config] -> error message
+[2022-10-10 19:18:10] [CRITICAL] [client_log_config] -> critical message
+<2022-10-10 19:18:10> Function:[test((3, 5),{})] File:[C:\Projects\Async_Chat\Lesson_06\log\client_log_config.py] line 59 from [parent_func] [print(test(3, 5))]
+<2022-10-10 19:19:19> Function:[validate_addr(('localhost',),{})] File:[C:\Projects\Async_Chat\Lesson_06\client.py] line 48 from [socket_client] [if not all((validate_addr(host), validate_port(port))):]
+<2022-10-10 19:19:19> Function:[validate_port((7890,),{})] File:[C:\Projects\Async_Chat\Lesson_06\client.py] line 48 from [socket_client] [if not all((validate_addr(host), validate_port(port))):]
+<2022-10-10 19:19:19> Function:[jim_presence((),{})] File:[C:\Projects\Async_Chat\Lesson_06\client.py] line 54 from [socket_client] [message = jim()  # Формируем <presence> сообщение]
+[2022-10-10 19:19:19] [DEBUG   ] [client] -> Client sends:
+{
+    "action": "presence",
+    "time": "Mon Oct 10 19:19:19 2022",
+    "type": "status",
+    "user": {
+        "account_name": "guest",
+        "status": "online"
+    }
+}
+[2022-10-10 19:19:19] [DEBUG   ] [client] -> Client received:
+{
+    "response": 200
+}
+<2022-10-10 19:19:19> Function:[validate_addr(('localhost',),{})] File:[C:\Projects\Async_Chat\Lesson_06\client.py] line 48 from [socket_client] [if not all((validate_addr(host), validate_port(port))):]
+<2022-10-10 19:19:19> Function:[validate_port((7890,),{})] File:[C:\Projects\Async_Chat\Lesson_06\client.py] line 48 from [socket_client] [if not all((validate_addr(host), validate_port(port))):]
+<2022-10-10 19:19:19> Function:[jim_exit_server((),{})] File:[C:\Projects\Async_Chat\Lesson_06\client.py] line 54 from [socket_client] [message = jim()  # Формируем <presence> сообщение]
+[2022-10-10 19:19:19] [DEBUG   ] [client] -> Client sends:
+{
+    "action": "exit"
+}
+[2022-10-10 19:19:19] [DEBUG   ] [client] -> Client received:
+{
+    "response": 200
+}

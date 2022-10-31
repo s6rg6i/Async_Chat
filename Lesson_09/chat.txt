@@ -1,0 +1,10 @@
+{"action": "msg", "time": 1666387407.3490071, "to": "My chat", "author": "Aleks", "message": "Hi!"}
+{"action": "msg", "time": 1666387420.4818993, "to": "My chat", "author": "Aleks", "message": "How do you do"}
+{"action": "msg", "time": 1666387499.5865674, "to": "My chat", "author": "Peter", "message": "I'm fine"}
+{"action": "msg", "time": 1666387527.8970587, "to": "My chat", "author": "Peter", "message": "\u0442\u044b \u0437\u043d\u0430\u0435\u0448\u044c, \u0432\u043e \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0435\u0433\u043e\u0434\u043d\u044f \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f \u043c\u0430\u0442\u0447??"}
+{"action": "msg", "time": 1666387556.3058372, "to": "My chat", "author": "Peter", "message": "\u0432 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0435 \u043f\u044f\u0442\u043e\u0433\u043e"}
+{"action": "msg", "time": 1666387602.6222584, "to": "My chat", "author": "Aleks", "message": "\u043d\u0435\u0442, \u0432 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0435 \u0448\u0435\u0441\u0442\u043e\u0433\u043e"}
+{"action": "msg", "time": 1666387641.0387557, "to": "My chat", "author": "Peter", "message": "\u0442\u043e\u0433\u0434\u0430 \u044f \u0443\u0439\u0434\u0443 \u043d\u0430 \u0447\u0430\u0441 \u0440\u0430\u043d\u044c\u0448\u0435, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u0438\u0431\u044b\u0442\u044c \u0432\u043e\u0432\u0440\u0435\u043c\u044f."}
+{"action": "msg", "time": 1666387667.478704, "to": "My chat", "author": "Aleks", "message": "\u0425\u043e\u0440\u043e\u0448\u043e, \u0443\u0432\u0438\u0434\u0438\u043c\u0441\u044f \u0442\u0430\u043c"}
+{"action": "msg", "time": 1666387678.838318, "to": "My chat", "author": "Aleks", "message": "\u041f\u043e\u043a\u0430"}
+{"action": "msg", "time": 1666387687.8801079, "to": "My chat", "author": "Peter", "message": "\u043f\u043e\u043a\u0430"}

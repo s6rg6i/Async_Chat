@@ -1,0 +1,22 @@
+Temp module documentation
+=========================
+
+Клиентское приложение для обмена сообщениями. Поддерживает
+отправку сообщений пользователям которые находятся в сети, сообщения шифруются
+с помощью алгоритма RSA с длинной ключа 2048 bit.
+
+
+class HashPsw
+~~~~~~~~~~~~~
+.. autoclass:: temp.HashPsw
+    :members:
+
+.. autoclass:: temp.HashPsw.__init__
+    :members:
+
+
+function hash_psw
+~~~~~~~~~~~~~~~~~
+
+.. autoclass:: temp.hash_psw
+    :members:
